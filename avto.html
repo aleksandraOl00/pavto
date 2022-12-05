@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link rel="stylesheet" href="style/css.css" />
+        <link rel="stylesheet" type="text/css" media="print" href="style/css.css" />
+        <title>СТО</title>
+    </head>
+    <body>
+        <h1><center>Заполните заявку клиента</center></h1>
+        <div style="text-align: center;">
+             <fieldset>
+            <h3><strong>Дата приема:</strong></h3>
+            <input type="date" id="data" />
+        <h3><strong>ФИО клиента:</strong></h3>
+        <input type="text" class="FullName" />
+        <h3><strong>Марка автомобиля:</strong></h3>
+        <input type="text" class="AutoBrand" />
+        <h3><strong>Вид работ:</strong></h3>
+        <form>
+        <select id="TypeService">
+        <option value="">Выбрать</option>
+        <option value="Замена тормозных колодок">Замена тормозных колодок</option>
+        <option value="Перебор задней подвески">Перебор задней подвески</option>
+        <option value="Перебор передней подвески">Перебор передней подвески</option>
+        <option value="Замена масла">Замена масла</option>
+        <option value="Замена рулевой рейки">Замена рулевой рейки</option>
+        <option value="Общая диагностика">Общая диагностика</option>
+        </select>
+        <h3><strong>Стоимость работы:</strong></h3>
+        <input type="text" class="Result" />
+        </fieldset>
+    </form>
+    <p>
+    <br />
+    <button class="Print"><strong>Квитанция</strong></button>
+  </p>
+</div>
+        <script src="style/app.js"></script>
+    </body>
+</html>

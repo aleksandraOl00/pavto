@@ -1,0 +1,57 @@
+body {
+    background-image: url(back.png);
+}
+button {
+    border: none;
+    background: #2F4F4F;
+    border-radius: 1px;
+    color: #FFFFFF;
+    position: relative;
+    height: 36px;
+    margin: 0;
+    min-width: 64px;
+    padding: 0 16px;
+    font-family: "Consolas","Helvetica","Arial",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: middle;
+}
+
+input,select {
+    background: #FFFFFF;
+    font-family: 'Consolas', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #000000;
+    padding: .4em;
+    border-radius: 1px;
+    border: 2px solid lightgray;
+    outline: none;
+    display:center;
+}
+
+h1 {
+    margin: 0;
+    align-items: center;
+    color: #2F4F4F;
+    text-transform: uppercase;
+    height: 50px;
+    background-image: url(back.png);
+    font-family: "Consolas","Helvetica","Arial",sans-serif;
+}
+ fieldset{
+  width: 20%;
+  border-radius: 2px;
+  display: inline-block;
+  background-color: #DCDCDC;
+}
+@media print {
+    .button {
+        display: none; }
+}
